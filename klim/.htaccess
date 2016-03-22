@@ -1,0 +1,4 @@
+AuthUserFile /home/content/52/11474852/html/.htpasswd
+AuthType Basic
+AuthName "My Secret Folder"
+Require valid-user

@@ -1,0 +1,5 @@
+.bowerrc
+.DS_store
+config.codekit
+node_modules
+bower_components

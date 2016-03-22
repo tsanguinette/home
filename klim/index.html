@@ -1,0 +1,255 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kris Sowersby | OpenType Webfonts</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+	 <link rel="stylesheet" href="css/opentype.css" />
+	 <link rel="stylesheet" href="css/typography.css" />
+	 
+	 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	 
+	 <link rel="alternate stylesheet" type="text/css" href="css/typography.css" title="styles1" media="screen" />
+	 <link rel="alternate stylesheet" type="text/css" href="css/Girard.css" title="styles2" media="screen" />
+	 <link rel="alternate stylesheet" type="text/css" href="css/DomaineText.css" title="styles3" media="screen" />
+	<script src="js/fontloader.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+	
+	<script type="text/javascript" src="//use.typekit.net/moz6nzi.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+	  
+  	<!--General Information-->
+      <div class="row">
+        <div class="large-4 columns">
+			<h1>Kris Sowersby</h1>
+			<h6>Retail OpenType Feature Tests</h6>
+
+			<!--Dropdown Menu-->
+			<a href="#" data-dropdown="hover1" data-options="is_hover:true">Pick A Typeface</a>
+
+			<ul id="hover1" class="f-dropdown" data-dropdown-content>
+				<li><a href="serversideSwitch.html?style=style1" rel="styles1" class="styleswitch">Adobe Caslon Pro</a></li>
+				<li><a href="serversideSwitch.html?style=style2" rel="styles2" class="styleswitch">Girard Slab</a></li>
+				<li><a href="serversideSwitch.html?style=style3" rel="styles3" class="styleswitch">DomaineText</a></li>
+			</ul>
+			
+			<!--Pixel Rendering-->
+			<!--<form id="pixel">
+			  <input id="none" type="checkbox" name="check1" value="none" onClick="cbChanged(this);"><label for="none">None</label>
+			  <input id="anti" type="checkbox" name="check2" value="antialiased" onClick="cbChanged(this);"><label for="anti">Antialiased</label>
+			  <input id="subpixel" type="checkbox" name="check3" value="subpixel antialiesed" onClick="cbChanged(this);"><label for="subpixel">Subpixel Antialiased</label>
+			</form>-->
+        </div>
+      </div>
+	  
+  	<!--Ligatures-->
+      <div class="row">
+        <div class="large-12 columns">
+  		  <button class="ligabutton small round button">On/Off</button><h2>Ligatures</h2>
+  		  <h4><small>Regular</small></h4><p class="ligaon" contenteditable="true">fi fl ff ffi ffl fb fh fj fk ffb ffh ffk</p>
+  		  <h4><small>Italic</small></h4><p class="ligaon regularitalic" contenteditable="true">fi fl ff ffi ffl fb fh fj fk ffb ffh ffk</p>
+  		  <h4><small>Bold</small></h4><p class="ligaon bold" contenteditable="true">fi fl ff ffi ffl fb fh fj fk ffb ffh ffk</p>
+		  <h4><small>Bold Italic</small></h4><p class="ligaon bolditalic" contenteditable="true">fi fl ff ffi ffl fb fh fj fk ffb ffh ffk</p>
+        </div>
+      </div>
+	  
+  	<!--Discretionary Ligatures-->
+      <div class="row">
+        <div class="large-12 columns">
+  		  <button class="dligbutton small round button">On/Off</button><h2>Discretionary Ligatures</h2>
+  		  <h4><small>Regular</small></h4><p class="dligon" contenteditable="true">ct st as ct es is ll ns nt sp st Th tt us</p>
+  		  <h4><small>Italic</small></h4><p class="dligon regularitalic" contenteditable="true">ct st as ct es is ll ns nt sp st Th tt us</p>
+  		  <h4><small>Bold</small></h4><p class="dligon bold" contenteditable="true">ct st as ct es is ll ns nt sp st Th tt us</p>
+		  <h4><small>Bold Italic</small></h4><p class="dligon bolditalic" contenteditable="true">ct st as ct es is ll ns nt sp st Th tt us</p>
+        </div>
+      </div>
+	  
+  	<!--Historical Ligatures-->
+      <div class="row">
+        <div class="large-12 columns">
+  		  <button class="hligbutton small round button">On/Off</button><h2>Historical Ligatures</h2>
+  		  <h4><small>Regular</small></h4><p class="hligon" contenteditable="true">f fb fh fi fk fl ft s sb sh si sk sl st</p>
+  		  <h4><small>Italic</small></h4><p class="hligon regularitalic" contenteditable="true">f fb fh fi fk fl ft s sb sh si sk sl st</p>
+  		  <h4><small>Bold</small></h4><p class="hligon bold" contenteditable="true">f fb fh fi fk fl ft s sb sh si sk sl st</p>
+		  <h4><small>Bold Italic</small></h4><p class="hligon bolditalic" contenteditable="true">f fb fh fi fk fl ft s sb sh si sk sl st</p>
+        </div>
+      </div>
+	  
+    	<!--Kern-->
+        <div class="row">
+          <div class="large-12 columns">
+    		  <button class="kernbutton small round button">On/Off</button><h2>Kerning</h2>
+    		  <h4><small>Regular</small></h4><p class="kernon" contenteditable="true">Jean-Luc Martinez, conservateur en chef au département des Antiquités grecques étrusques.</p>
+    		  <h4><small>Italic</small></h4><p class="kernon regularitalic" contenteditable="true">Jean-Luc Martinez, conservateur en chef au département des Antiquités grecques étrusques.</p>
+    		  <h4><small>Bold</small></h4><p class="kernon bold" contenteditable="true">Jean-Luc Martinez, conservateur en chef au département des Antiquités grecques étrusques.</p>
+  		  <h4><small>Bold Italic</small></h4><p class="kernon bolditalic" contenteditable="true">Jean-Luc Martinez, conservateur en chef au département des Antiquités grecques étrusques.</p>
+          </div>
+        </div>
+		
+	  	<!--Case-->
+	      <div class="row">
+	        <div class="large-12 columns">
+	  		  <button class="casebutton small round button">On/Off</button><h2>CASE</h2>
+	  		  <h4><small>Regular</small></h4><p class="caseon" contenteditable="true">¿THIS IS A TEST ABCDEFGHIJKLMNOPQRSTUVWXYZ?</p>
+	  		  <h4><small>Italic</small></h4><p class="caseon regularitalic" contenteditable="true">¿THIS IS A TEST ABCDEFGHIJKLMNOPQRSTUVWXYZ?</p>
+	  		  <h4><small>Bold</small></h4><p class="caseon bold" contenteditable="true">¿THIS IS A TEST ABCDEFGHIJKLMNOPQRSTUVWXYZ?</p>
+			  <h4><small>Bold Italic</small></h4><p class="caseon bolditalic" contenteditable="true">¿THIS IS A TEST ABCDEFGHIJKLMNOPQRSTUVWXYZ?</p>
+	        </div>
+	      </div>
+    
+	<!--Small Caps-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="smcpbutton small round button">On/Off</button><h2>Small Caps</h2>
+		  <h4><small>Regular</small></h4><p class="smcpon" contenteditable="true">ce qu'il faut savoir pour une visite du musée agréable</p>
+		  <h4><small>Italic</small></h4><p class="smcpon regularitalic" contenteditable="true">ce qu'il faut savoir pour une visite du musée agréable</p>
+		  <h4><small>Bold</small></h4><p class="smcpon bold" contenteditable="true">ce qu'il faut savoir pour une visite du musée agréable</p>
+		  <h4><small>Bold Italic</small></h4><p class="smcpon bolditalic" contenteditable="true">ce qu'il faut savoir pour une visite du musée agréable</p>
+      </div>
+    </div>
+	
+	<!--Small Caps from Capitals-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="c2scbutton small round button">On/Off</button><h2>C2SC</h2>
+		 <h4><small>Regular</small></h4> <p class="c2scon" contenteditable="true">CE QU'IL FAUT SAVOIR POUR UNE VISITE DU MUSEE</p>
+		  <h4><small>Italic</small></h4><p class="c2scon regularitalic" contenteditable="true">CE QU'IL FAUT SAVOIR POUR UNE VISITE DU MUSEE</p>
+		  <h4><small>Bold</small></h4><p class="c2scon bold" contenteditable="true">CE QU'IL FAUT SAVOIR POUR UNE VISITE DU MUSEE</p>
+		  <h4><small>Bold Italic</small></h4><p class="c2scon bolditalic" contenteditable="true">CE QU'IL FAUT SAVOIR POUR UNE VISITE DU MUSEE</p>
+      </div>
+    </div>
+	
+	<!--Old Style Numbers-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="numbutton small round button">On/Off</button><h2>Old-Style Numbers</h2>
+		  <h4><small>Regular</small></h4><p class="onumon" contenteditable="true">0123456789</p>
+		  <h4><small>Italic</small></h4><p class="onumon regularitalic" contenteditable="true">0123456789</p>
+		  <h4><small>Bold</small></h4><p class="onumon bold" contenteditable="true">0123456789</p>
+		  <h4><small>Bold Italic</small></h4><p class="onumon bolditalic" contenteditable="true">0123456789</p>
+      </div>
+    </div>
+	
+	<!--Tabular Numbers-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="tnumbutton small round button">On/Off</button><h2>Tabular Numbers</h2>
+		  <h4><small>Regular</small></h4><p class="tnumon" contenteditable="true">0123456789</p>
+		  <h4><small>Italic</small></h4><p class="tnumon regularitalic" contenteditable="true">0123456789</p>
+		  <h4><small>Bold</small></h4><p class="tnumon bold" contenteditable="true">0123456789</p>
+		  <h4><small>Bold Italic</small></h4><p class="tnumon bolditalic" contenteditable="true">0123456789</p>
+      </div>
+    </div>
+	
+	<!--Fractions-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="fracbutton small round button">On/Off</button><h2>Fractions</h2>
+	  	  <h4><small>Regular</small></h4><p class="fracon" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+		 <h4><small>Italic</small></h4> <p class="fracon italic" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+		 <h4><small>Bold</small></h4> <p class="fracon bold" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+		 <h4><small>Bold Italic</small></h4> <p class="fracon bolditalic" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+      </div>
+    </div>
+	
+	<!--Alternative Fractions-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="afracbutton small round button">On/Off</button><h2>Alt Frac</h2>
+	  	  <h4><small>Regular</small></h4><p class="afracon" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+		  <h4><small>Italic</small></h4><p class="afracon italic" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+		  <h4><small>Bold</small></h4><p class="afracon bold" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+		  <h4><small>Bold Italic</small></h4><p class="afracon bolditalic" contenteditable="true">1/2 2/3 1/4 1/3 3/4 1/8 7/8</p>
+      </div>
+    </div>
+	
+	<!--Denominator-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="dnombutton small round button">On/Off</button><h2>Denominators</h2>
+	  	  <h4><small>Regular</small></h4><p class="dnomon" contenteditable="true">/1 /2 /3 /4 /5 /6 /7 /8 /9 /0</p>
+		  <h4><small>Italic</small></h4><p class="dnomon italic" contenteditable="true">/1 /2 /3 /4 /5 /6 /7 /8 /9 /0</p>
+		  <h4><small>Bold</small></h4><p class="dnomon bold" contenteditable="true">/1 /2 /3 /4 /5 /6 /7 /8 /9 /0</p>
+		  <h4><small>Bold Italic</small></h4><p class="dnomon bolditalic" contenteditable="true">/1 /2 /3 /4 /5 /6 /7 /8 /9 /0</p>
+      </div>
+    </div>
+	
+	<!--Subscript-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="subsbutton small round button">On/Off</button><h2>Subscript</h2>
+	  	  <h4><small>Regular</small></h4><p class="scripts" contenteditable="true">Mg(OH)<span class="subson">2</span> N<span class="subson">2</span>O + H<span class="subson">2</span>O</p>
+		  <h4><small>Italic</small></h4><p class="scripts italic" contenteditable="true">Mg(OH)<span class="subson">2</span> N<span class="subson">2</span>O + H<span class="subson">2</span>O</p>
+		  <h4><small>Bold</small></h4><p class="scripts bold" contenteditable="true">Mg(OH)<span class="subson">2</span> N<span class="subson">2</span>O + H<span class="subson">2</span>O</p>
+		  <h4><small>Bold Italic</small></h4><p class="scripts bolditalic" contenteditable="true">Mg(OH)<span class="subson">2</span> N<span class="subson">2</span>O + H<span class="subson">2</span>O</p>
+      </div>
+    </div>
+	
+	<!--Superscript-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="supsbutton small round button">On/Off</button><h2>Superscript</h2>
+	  	  <h4><small>Regular</small></h4><p contenteditable="true">Mg(OH)<span class="supson">2</span> N<span class="supson">2</span>O + H<span class="supson">2</span>O</p>
+		  <h4><small>Italic</small></h4><p class="italic" contenteditable="true">Mg(OH)<span class="supson">2</span> N<span class="supson">2</span>O + H<span class="supson">2</span>O</p>
+		  <h4><small>Bold</small></h4><p class="bold" contenteditable="true">Mg(OH)<span class="supson">2</span> N<span class="supson">2</span>O + H<span class="supson">2</span>O</p>
+		  <h4><small>Bold Italic</small></h4><p class="bolditalic" contenteditable="true">Mg(OH)<span class="supson">2</span> N<span class="supson">2</span>O + H<span class="supson">2</span>O</p>
+      </div>
+    </div>
+	
+	<!--SINF-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="sinfbutton small round button">On/Off</button><h2>SINF</h2>
+	  	  <h4><small>Regular</small></h4><p class="sinfon" contenteditable="true">Mg(OH)<span class="sinfon">2</span> N<span class="sinfon">2</span>O + H<span class="sinfon">2</span>O</p>
+		  <h4><small>Italic</small></h4><p class="sinfon italic" contenteditable="true">Mg(OH)<span class="sinfon">2</span> N<span class="sinfon">2</span>O + H<span class="sinfon">2</span>O</p>
+		  <h4><small>Bold</small></h4><p class="sinfon bold" contenteditable="true">Mg(OH)<span class="sinfon">2</span> N<span class="sinfon">2</span>O + H<span class="sinfon">2</span>O</p>
+		  <h4><small>Bold Italic</small></h4><p class="sinfon bolditalic" contenteditable="true">Mg(OH)<span class="sinfon">2</span> N<span class="sinfon">2</span>O + H<span class="sinfon">2</span>O</p>
+      </div>
+    </div>
+	
+	<!--Ordinals-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="ordnbutton small round button">On/Off</button><h2>Ordinals</h2>
+	  	  <h4><small>Regular</small></h4><p class="ordnon" contenteditable="true">1st 2nd 3rd 4th</p>
+		  <h4><small>Italic</small></h4><p class="ordnon italic" contenteditable="true">1st 2nd 3rd 4th</p>
+		  <h4><small>Bold</small></h4><p class="ordnon bold" contenteditable="true">1st 2nd 3rd 4th</p>
+		  <h4><small>Bold Italic</small></h4><p class="ordnon bolditalic" contenteditable="true">1st 2nd 3rd 4th</p>
+      </div>
+    </div>
+	
+	<!--Swash-->
+    <div class="row">
+      <div class="large-12 columns">
+		  <button class="swshbutton small round button">On/Off</button><h2>Swash</h2>
+		  <h4><small>Regular</small></h4><p class="swash" contenteditable="true"><span class="swshon">ABCDEFGHIJKLMNOPQRSTUVWXYZ</br>abcdefghijklmnopqrstuvwxyz</span></p>
+		  <h4><small>Italic</small></h4><p class="swash italic" contenteditable="true"><span class="swshon">ABCDEFGHIJKLMNOPQRSTUVWXYZ</br>abcdefghijklmnopqrstuvwxyz</span></p>
+		  <h4><small>Bold</small></h4><p class="swash bold" contenteditable="true"><span class="swshon">ABCDEFGHIJKLMNOPQRSTUVWXYZ</br>abcdefghijklmnopqrstuvwxyz</span></p>
+		  <h4><small>Bold Italic</small></h4><p class="swash bold italic" contenteditable="true"><span class="swshon">ABCDEFGHIJKLMNOPQRSTUVWXYZ</br>abcdefghijklmnopqrstuvwxyz</span></p>
+      </div>
+    </div>
+	
+  	<!--Contextual Ligatures-->
+      <div class="row">
+        <div class="large-12 columns">
+  		  <button class="cligbutton small round button">On/Off</button><h2>Contextual Ligatures</h2>
+  		  <h4><small>Regular</small></h4><p class="cligon" contenteditable="true">Type special characters</p>
+  		  <h4><small>Italic</small></h4><p class="cligon regularitalic" contenteditable="true">Type special characters</p>
+  		  <h4><small>Bold</small></h4><p class="cligon bold" contenteditable="true">Type special characters</p>
+		  <h4><small>Bold Italic</small></h4><p class="cligon bolditalic" contenteditable="true">Type special characters</p>
+        </div>
+      </div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+	<script src="js/switch.js"></script>
+	<script src="js/editable.js"></script>
+	<script src="js/pixel.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

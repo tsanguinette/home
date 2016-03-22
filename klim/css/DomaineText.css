@@ -1,0 +1,83 @@
+/*
+Domaine Text
+*/
+p{
+	font-family: "DomaineText";
+}
+
+.regularitalic{
+	font-family: "DomaineTextRegularItalic";
+	font-style:italic;
+	font-weight:400;
+}
+
+.bold{
+	font-family: "DomaineTextBold";
+	font-weight:600;
+}
+
+.bolditalic{
+	font-family: "DomaineTextBoldItalic";
+	style-style:oblique;
+	font-weight:600;
+}
+
+/*Light*/
+/*@font-face{
+	font-family: "DomaineText";
+src: url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Light.eot"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Light.woff") format("woff"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Light.ttf") format("truetype"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Light.svg#DomaineTextWeb-Light") format("svg"),
+	url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Light.svgz#DomaineTextWeb-Light") format("svgz");
+	font-weight:200;
+	font-style:lighter;
+}*/
+
+/*Regular*/
+@font-face{
+	font-family: "DomaineText";
+src: url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Regular.eot"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Regular.woff") format("woff"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Regular.ttf") format("truetype"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Regular.svg#DomaineTextWeb-Light") format("svg"),
+	url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Regular.svgz#DomaineTextWeb-Light") format("svgz");
+	font-weight:400;
+	font-style:normal;
+}
+
+/*Regular Italic*/
+@font-face{
+	font-family: "DomaineTextRegularItalic";
+src: url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-RegularItalic.eot"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-RegularItalic.woff") format("woff"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-ReguarItalic.ttf") format("truetype"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-RegularItalic.svg#DomaineTextWeb-Light") format("svg"),
+	url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-RegularItalic.svgz#DomaineTextWeb-Light") format("svgz");
+	font-weight:400;
+	font-style:italic;
+}
+
+/*Bold*/
+@font-face{
+	font-family: "DomaineTextBold";
+src: url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Bold.eot"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Bold.woff") format("woff"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Bold.ttf") format("truetype"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Bold.svg#DomaineTextWeb-Light") format("svg"),
+	url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-Bold.svgz#DomaineTextWeb-Light") format("svgz");
+	font-weight:600;
+	font-style:bold;
+}
+
+/*Bold Italic*/
+@font-face{
+	font-family: "DomaineTextBoldItalic";
+src: url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-BoldItalic.eot"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-BoldItalic.woff") format("woff"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-BoldItalic.ttf") format("truetype"),
+    url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-BoldItalic.svg#DomaineTextWeb-Light") format("svg"),
+	url("http://tylersanguinette.com/klim/fonts/DomaineText/DomaineTextWeb-BoldItalic.svgz#DomaineTextWeb-Light") format("svgz");
+	font-weight:600;
+	font-style:oblique;
+}

@@ -1,0 +1,256 @@
+/*
+Created by Tyler Sanguinette
+tylersanguinette.com
+Saint Louis, Missouri
+2014
+*/
+
+.ligaon { -moz-font-feature-settings:"liga" 1; 
+-moz-font-feature-settings:"liga=1"; 
+-ms-font-feature-settings:"liga" 1; 
+-o-font-feature-settings:"liga" 1; 
+-webkit-font-feature-settings:"liga" 1; 
+font-feature-settings:"liga" 1; }
+
+.ligaoff { -moz-font-feature-settings:"liga" 0; 
+-moz-font-feature-settings:"liga=0"; 
+-ms-font-feature-settings:"liga" 0; 
+-o-font-feature-settings:"liga" 0; 
+-webkit-font-feature-settings:"liga" 0; 
+font-feature-settings:"liga" 0; }
+
+.dligon { -moz-font-feature-settings:"dlig" 1; 
+-moz-font-feature-settings:"dlig=1"; 
+-ms-font-feature-settings:"dlig" 1; 
+-o-font-feature-settings:"dlig" 1; 
+-webkit-font-feature-settings:"dlig" 1; 
+font-feature-settings:"dlig" 1; }
+
+.dligoff { -moz-font-feature-settings:"dlig" 0; 
+-moz-font-feature-settings:"dlig=0"; 
+-ms-font-feature-settings:"dlig" 0; 
+-o-font-feature-settings:"dlig" 0; 
+-webkit-font-feature-settings:"dlig" 0; 
+font-feature-settings:"dlig" 0; }
+
+.cligon { -moz-font-feature-settings:"clig" 1; 
+-moz-font-feature-settings:"clig=1"; 
+-ms-font-feature-settings:"clig" 1; 
+-o-font-feature-settings:"clig" 1; 
+-webkit-font-feature-settings:"clig" 1; 
+font-feature-settings:"clig" 1; }
+
+.cligoff { -moz-font-feature-settings:"clig" 0; 
+-moz-font-feature-settings:"clig=0"; 
+-ms-font-feature-settings:"clig" 0; 
+-o-font-feature-settings:"clig" 0; 
+-webkit-font-feature-settings:"clig" 0; 
+font-feature-settings:"clig" 0; }
+
+.hligon { -moz-font-feature-settings:"hlig" 1; 
+-moz-font-feature-settings:"hlig=1"; 
+-ms-font-feature-settings:"hlig" 1; 
+-o-font-feature-settings:"hlig" 1; 
+-webkit-font-feature-settings:"hlig" 1; 
+font-feature-settings:"hlig" 1; }
+
+.hlig0ff { -moz-font-feature-settings:"hlig" 0; 
+-moz-font-feature-settings:"hlig=0"; 
+-ms-font-feature-settings:"hlig" 0; 
+-o-font-feature-settings:"hlig" 0; 
+-webkit-font-feature-settings:"hlig" 0; 
+font-feature-settings:"hlig" 0; }
+
+.fracon { -moz-font-feature-settings: "frac" 1;
+-moz-font-feature-settings: "frac=1";
+-ms-font-feature-settings: "frac" 1;
+-o-font-feature-settings: "frac" 1;
+-webkit-font-feature-settings: "frac" 1;
+font-feature-settings: "frac" 1; }
+
+.fracoff { -moz-font-feature-settings: "frac" 0;
+-moz-font-feature-settings: "frac=0";
+-ms-font-feature-settings: "frac" 0;
+-o-font-feature-settings: "frac" 0;
+-webkit-font-feature-settings: "frac" 0;
+font-feature-settings: "frac" 0; }
+
+.fracon { -moz-font-feature-settings: "afrac" 1;
+-moz-font-feature-settings: "afrac=1";
+-ms-font-feature-settings: "afrac" 1;
+-o-font-feature-settings: "afrac" 1;
+-webkit-font-feature-settings: "afrac" 1;
+font-feature-settings: "afrac" 1; }
+
+.fracoff { -moz-font-feature-settings: "afrac" 0;
+-moz-font-feature-settings: "afrac=0";
+-ms-font-feature-settings: "afrac" 0;
+-o-font-feature-settings: "afrac" 0;
+-webkit-font-feature-settings: "afrac" 0;
+font-feature-settings: "afrac" 0; }
+
+.onumon { -moz-font-feature-settings: "onum" 1;
+-moz-font-feature-settings: "onum=1";
+-ms-font-feature-settings: "onum" 1;
+-o-font-feature-settings: "onum" 1;
+-webkit-font-feature-settings: "onum" 1;
+font-feature-settings: "onum" 1; }
+
+.lnumon { -moz-font-feature-settings: "lnum" 1;
+-moz-font-feature-settings: "lnum=1";
+-ms-font-feature-settings: "lnum" 1;
+-o-font-feature-settings: "lnum" 1;
+-webkit-font-feature-settings: "lnum" 1;
+font-feature-settings: "lnum" 1; }
+
+.smcpon { -moz-font-feature-settings: "smcp" 1;
+-moz-font-feature-settings: "smcp=1";
+-ms-font-feature-settings: "smcp" 1;
+-o-font-feature-settings: "smcp" 1;
+-webkit-font-feature-settings: "smcp" 1;
+font-feature-settings: "smcp" 1; }
+
+.smcpoff { -moz-font-feature-settings: "smcp" 0;
+-moz-font-feature-settings: "smcp=0";
+-ms-font-feature-settings: "smcp" 0;
+-o-font-feature-settings: "smcp" 0;
+-webkit-font-feature-settings: "smcp" 0;
+font-feature-settings: "smcp" 0; }
+
+.caseon { -moz-font-feature-settings: "case" 1;
+-moz-font-feature-settings: "case=1";
+-ms-font-feature-settings: "case" 1;
+-o-font-feature-settings: "case" 1;
+-webkit-font-feature-settings: "case" 1;
+font-feature-settings: "case" 1; }
+
+.caseoff { -moz-font-feature-settings: "case" 0;
+-moz-font-feature-settings: "case=0";
+-ms-font-feature-settings: "case" 0;
+-o-font-feature-settings: "case" 0;
+-webkit-font-feature-settings: "case" 0;
+font-feature-settings: "case" 0; }
+
+.kernon { -moz-font-feature-settings:"kern" 1; 
+-moz-font-feature-settings:"kern=1"; 
+-ms-font-feature-settings:"kern" 1; 
+-o-font-feature-settings:"kern" 1; 
+-webkit-font-feature-settings:"kern" 1; 
+font-feature-settings:"kern" 1; }
+
+.kernoff { -moz-font-feature-settings:"kern" 0; 
+-moz-font-feature-settings:"kern=0"; 
+-ms-font-feature-settings:"kern" 0; 
+-o-font-feature-settings:"kern" 0; 
+-webkit-font-feature-settings:"kern" 0; 
+font-feature-settings:"kern" 0; }
+
+.c2scon { font-feature-settings: "c2sc" 1;
+-webkit-font-feature-settings: "c2sc" 1;
+-moz-font-feature-settings: "c2sc" 1;
+-o-font-feature-settings: "c2sc" 1;
+-ms-font-feature-settings: "c2sc" 1; }
+
+.c2scoff { font-feature-settings: "c2sc" 0;
+-webkit-font-feature-settings: "c2sc" 0;
+-moz-font-feature-settings: "c2sc" 0;
+-o-font-feature-settings: "c2sc" 0;
+-ms-font-feature-settings: "c2sc" 0; }
+
+.subson { -moz-font-feature-settings: "subs" 1;
+-moz-font-feature-settings: "subs=1";
+-ms-font-feature-settings: "subs" 1;
+-o-font-feature-settings: "subs" 1;
+-webkit-font-feature-settings: "subs" 1;
+font-feature-settings: "subs" 1; }
+
+.subsoff { -moz-font-feature-settings: "subs" 0;
+-moz-font-feature-settings: "subs=0";
+-ms-font-feature-settings: "subs" 0;
+-o-font-feature-settings: "subs" 0;
+-webkit-font-feature-settings: "subs" 0;
+font-feature-settings: "subs" 0; }
+
+.supson { -moz-font-feature-settings: "sups" 1;
+-moz-font-feature-settings: "sups=1";
+-ms-font-feature-settings: "sups" 1;
+-o-font-feature-settings: "sups" 1;
+-webkit-font-feature-settings: "sups" 1;
+font-feature-settings: "sups" 1; }
+
+.supsoff { -moz-font-feature-settings: "sups" 0;
+-moz-font-feature-settings: "sups=0";
+-ms-font-feature-settings: "sups" 0;
+-o-font-feature-settings: "sups" 0;
+-webkit-font-feature-settings: "sups" 0;
+font-feature-settings: "sups" 0; }
+
+.swshon { -moz-font-feature-settings:"swsh" 1; 
+-moz-font-feature-settings:"swsh=1"; 
+-ms-font-feature-settings:"swsh" 1; 
+-o-font-feature-settings:"swsh" 1; 
+-webkit-font-feature-settings:"swsh" 1; 
+font-feature-settings:"swsh" 1;}
+
+.swshoff { -moz-font-feature-settings:"swsh" 0; 
+-moz-font-feature-settings:"swsh=0"; 
+-ms-font-feature-settings:"swsh" 0; 
+-o-font-feature-settings:"swsh" 0; 
+-webkit-font-feature-settings:"swsh" 0; 
+font-feature-settings:"swsh" 0;}
+
+.sinfon { -moz-font-feature-settings:"sinf" 1; 
+-moz-font-feature-settings:"sinf=1"; 
+-ms-font-feature-settings:"sinf" 1; 
+-o-font-feature-settings:"sinf" 1; 
+-webkit-font-feature-settings:"sinf" 1; 
+font-feature-settings:"sinf" 1;}
+
+.sinfoff { -moz-font-feature-settings:"sinf" 0; 
+-moz-font-feature-settings:"sinf=0"; 
+-ms-font-feature-settings:"sinf" 0; 
+-o-font-feature-settings:"sinf" 0; 
+-webkit-font-feature-settings:"sinf" 0; 
+font-feature-settings:"sinf" 0;}
+
+.ordnon { -moz-font-feature-settings:"ordn" 1; 
+-moz-font-feature-settings:"ordn=1"; 
+-ms-font-feature-settings:"ordn" 1; 
+-o-font-feature-settings:"ordn" 1; 
+-webkit-font-feature-settings:"ordn" 1; 
+font-feature-settings:"ordn" 1;}
+
+.ordnoff { -moz-font-feature-settings:"ordn" 0; 
+-moz-font-feature-settings:"ordn=0"; 
+-ms-font-feature-settings:"ordn" 0; 
+-o-font-feature-settings:"ordn" 0; 
+-webkit-font-feature-settings:"ordn" 0; 
+font-feature-settings:"ordn" 0;}
+
+.dnomon { -moz-font-feature-settings:"dnom" 1; 
+-moz-font-feature-settings:"dnom=1"; 
+-ms-font-feature-settings:"dnom" 1; 
+-o-font-feature-settings:"dnom" 1; 
+-webkit-font-feature-settings:"dnom" 1; 
+font-feature-settings:"dnom" 1;}
+
+.dnomoff { -moz-font-feature-settings:"dnom" 0; 
+-moz-font-feature-settings:"dnom=0"; 
+-ms-font-feature-settings:"dnom" 0; 
+-o-font-feature-settings:"dnom" 0; 
+-webkit-font-feature-settings:"dnom" 0; 
+font-feature-settings:"dnom" 0;}
+
+.tnumon { -moz-font-feature-settings:"tnum" 1; 
+-moz-font-feature-settings:"tnum=1"; 
+-ms-font-feature-settings:"tnum" 1; 
+-o-font-feature-settings:"tnum" 1; 
+-webkit-font-feature-settings:"tnum" 1; 
+font-feature-settings:"tnum" 1;}
+
+.tnumoff { -moz-font-feature-settings:"tnum" 0; 
+-moz-font-feature-settings:"tnum=0"; 
+-ms-font-feature-settings:"tnum" 0; 
+-o-font-feature-settings:"tnum" 0; 
+-webkit-font-feature-settings:"tnum" 0; 
+font-feature-settings:"tnum" 0;}
