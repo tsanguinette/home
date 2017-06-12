@@ -1,6 +1,11 @@
 @media #{$xlarge-up} {
 	.curtain{
 		height:705px;
+		
+		h1{
+			max-width: 870px;
+			margin: 0 auto;
+		}
 	}
 	
 	.desktop-row{
@@ -8,6 +13,18 @@
 		margin-right: 0;
 		margin: 0 auto;
 	    max-width:90em;
+	}
+}
+
+@include breakpoint(large only) {
+	h1 {
+		font-size: 2.3rem;
+	    line-height: 42px;
+	}
+	
+	.curtain h1{
+		margin:0 auto;
+		width:650px;
 	}
 }
 
@@ -24,6 +41,11 @@
 		margin-left:0;
 		margin-right:0;
 		max-width:none;
+	}
+	
+	.curtain h1{
+		max-width: 870px;
+		margin: 0 auto;
 	}
 	
 	.menu-button-tap{
@@ -214,6 +236,11 @@
 	    margin: 29px 0 0 0;
 		height:30px;
 		width:30px;
+	}
+	
+	.curtain h1{
+		max-width: 330px;
+		margin: 0 auto;
 	}
 	
 	h1 {

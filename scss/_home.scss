@@ -62,6 +62,10 @@ a.textlink{
 	}
 }
 
+a:hover{
+	transition: color 400ms ease-in-out;
+};
+
 h1{
 	line-height:52px;
 }
